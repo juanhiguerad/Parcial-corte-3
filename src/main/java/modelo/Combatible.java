@@ -8,6 +8,9 @@ package modelo;
  *
  * @author juanj
  */
+/* Interfaz que deben implementar los seres que pueden combatir. */
 public interface Combatible {
-    
+    int getAtaque();
+    int getDefensa();
+    boolean estaEnAtaque();
 }
