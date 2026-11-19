@@ -8,6 +8,8 @@ package modelo;
  *
  * @author juanj
  */
-public class Posicion {
-    
+/* Posición de batalla de un monstruo */
+public enum Posicion {
+    ATAQUE,
+    DEFENSA
 }
