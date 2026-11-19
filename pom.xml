@@ -11,4 +11,21 @@
         <exec.mainClass>com.mycompany.parcial3juanjosehiguera1107843414.Parcial3JuanJoseHiguera1107843414</exec.mainClass>
     </properties>
     <name>Parcial3JuanJoseHiguera</name>
+    <dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>5.10.2</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.2.5</version>
+        </plugin>
+    </plugins>
+</build>
 </project>
